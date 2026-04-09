@@ -1,0 +1,37 @@
+{
+  "id": "roland-m5000v2",
+  "name": "Roland M-5000 (v2)",
+  "shortname": "M-5000v2",
+  "description": "Control Roland M-5000 and M-2/3/4xx mixers via ethernet or serial bridge",
+  "version": "0.0.0",
+  "manufacturer": "Roland",
+  "products": [
+    "M-5000",
+    "M-480",
+    "M-400",
+    "M-380",
+    "M-300",
+    "M-200"
+  ],
+  "keywords": [
+    "audio",
+    "mixer",
+    "roland"
+  ],
+  "license": "MIT",
+  "repository": "git+https://github.com/johnc448/companion-module-roland-m5000v2.git",
+  "bugs": "https://github.com/johnc448/companion-module-roland-m5000v2/issues",
+  "maintainers": [
+    {
+      "name": "John Collins",
+      "email": "emergwisc@gmail.com"
+    }
+  ],
+  "legacyIds": [],
+  "runtime": {
+    "type": "node22",
+    "api": "nodejs-ipc",
+    "apiVersion": "0.0.0",
+    "entrypoint": "../src/main.js"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "companion-module-roland-m5000v2",
+  "version": "1.0.0",
+  "description": "Revised Bitfocus Companion module for Roland M-5000 and M-2/3/4xx mixers",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnc448/companion-module-roland-m5000v2.git"
+  },
+  "author": "John Collins",
+  "license": "MIT",
+  "dependencies": {
+    "@companion-module/base": "^1.14.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
